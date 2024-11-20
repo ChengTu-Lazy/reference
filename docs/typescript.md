@@ -405,10 +405,10 @@ const data2 = {
 ```ts
 const response = getResponse()
 const isSuccessResponse = 
-    res instanceof SuccessResponse
+    response instanceof SuccessResponse
 
 if (isSuccessResponse) {
-  res.data // SuccessResponse
+  response.data // SuccessResponse
 }
 ```
 
